@@ -1,0 +1,270 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 User Interface", "01 User Interface", "{D2B80880-78EF-4DDB-9860-F6B75F5E30D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 UIModelCommon", "02 UIModelCommon", "{19A8F276-D034-4696-82BD-83AB5C164E7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Business Logic", "03 Business Logic", "{54284221-692C-496A-AAB0-EB2030555998}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Framework", "04 Framework", "{519F1C67-D55D-4961-9925-182C33867E7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 ReferenceLib", "05 ReferenceLib", "{DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Solution Items", "06 Solution Items", "{3A042A05-04A8-4C35-A1A3-D05000CF72E4}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\初始化扩展数据.sql = Doc\初始化扩展数据.sql
+		Doc\初始化语言.sql = Doc\初始化语言.sql
+		Doc\命名规则.txt = Doc\命名规则.txt
+		Doc\解决方案层次说明.txt = Doc\解决方案层次说明.txt
+		Doc\错误代码段.docx = Doc\错误代码段.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Publish", "08 Publish", "{AB40633C-BF3D-41AD-A820-8B6A078BCFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.API", "SuperTheaterPro.API\SuperTheaterPro.API.csproj", "{694C9171-4D28-4B9C-8AEF-32F6D7C1EAC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.API.Helper", "SuperTheaterPro.API.Helper\SuperTheaterPro.API.Helper.csproj", "{39DE711A-9B89-427B-96EE-BB08381E5C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.API.Logic", "SuperTheaterPro.API.Logic\SuperTheaterPro.API.Logic.csproj", "{9E6A62FB-EB06-4A10-B3AC-86639A5529F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.Business.BLL", "SuperTheaterPro.Business.BLL\SuperTheaterPro.Business.BLL.csproj", "{BB4071E5-A1DD-4A47-8874-E7BCFFAF1ED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.Business.DAL", "SuperTheaterPro.Business.DAL\SuperTheaterPro.Business.DAL.csproj", "{2A0079A4-2DE4-423F-A5C5-51B452B3E20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.Business.Contract", "SuperTheaterPro.Business.Contract\SuperTheaterPro.Business.Contract.csproj", "{1CEF3CEC-ABFF-4F95-A141-D914ACC69B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.Business.Model", "SuperTheaterPro.Business.Model\SuperTheaterPro.Business.Model.csproj", "{36936789-7F18-4F5C-9E71-4C2D5128C433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Test", "07 Test", "{94FEE004-61FD-4D01-B66C-1DA7D35A0A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperTheaterPro.Framework.Utility", "SuperTheaterPro.Framework.Utility\SuperTheaterPro.Framework.Utility.csproj", "{27D60103-9548-41DC-8A9F-F5D2964BF1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Cache", "..\SuperProducer\Src\SuperProducer.Core.Cache\SuperProducer.Core.Cache.csproj", "{55ED544D-E078-4F5D-A370-3FEFA2A906A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Config", "..\SuperProducer\Src\SuperProducer.Core.Config\SuperProducer.Core.Config.csproj", "{0F4335D8-8454-4C9C-B2DB-B758595ABC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Log", "..\SuperProducer\Src\SuperProducer.Core.Log\SuperProducer.Core.Log.csproj", "{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Message", "..\SuperProducer\Src\SuperProducer.Core.Message\SuperProducer.Core.Message.csproj", "{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Module", "..\SuperProducer\Src\SuperProducer.Core.Module\SuperProducer.Core.Module.csproj", "{9E067502-0B48-43D6-852E-51C7204E9231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Service", "..\SuperProducer\Src\SuperProducer.Core.Service\SuperProducer.Core.Service.csproj", "{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Utility", "..\SuperProducer\Src\SuperProducer.Core.Utility\SuperProducer.Core.Utility.csproj", "{E6FFE21B-564C-4533-BDC3-B394D1069CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.BLL", "..\SuperProducer\Src\SuperProducer.Framework.BLL\SuperProducer.Framework.BLL.csproj", "{9C1E20BD-1587-4959-BD00-4B5315304D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.DAL", "..\SuperProducer\Src\SuperProducer.Framework.DAL\SuperProducer.Framework.DAL.csproj", "{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.Model", "..\SuperProducer\Src\SuperProducer.Framework.Model\SuperProducer.Framework.Model.csproj", "{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.Web", "..\SuperProducer\Src\SuperProducer.Framework.Web\SuperProducer.Framework.Web.csproj", "{2587BB44-CA6C-4E2D-A815-7777C165FE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.Contract", "..\SuperProducer\Src\SuperProducer.Framework.Contract\SuperProducer.Framework.Contract.csproj", "{B5266E81-5CFC-4611-BAF9-42AD292B4797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{694C9171-4D28-4B9C-8AEF-32F6D7C1EAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694C9171-4D28-4B9C-8AEF-32F6D7C1EAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694C9171-4D28-4B9C-8AEF-32F6D7C1EAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694C9171-4D28-4B9C-8AEF-32F6D7C1EAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39DE711A-9B89-427B-96EE-BB08381E5C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DE711A-9B89-427B-96EE-BB08381E5C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DE711A-9B89-427B-96EE-BB08381E5C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DE711A-9B89-427B-96EE-BB08381E5C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6A62FB-EB06-4A10-B3AC-86639A5529F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6A62FB-EB06-4A10-B3AC-86639A5529F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6A62FB-EB06-4A10-B3AC-86639A5529F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6A62FB-EB06-4A10-B3AC-86639A5529F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4071E5-A1DD-4A47-8874-E7BCFFAF1ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4071E5-A1DD-4A47-8874-E7BCFFAF1ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4071E5-A1DD-4A47-8874-E7BCFFAF1ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4071E5-A1DD-4A47-8874-E7BCFFAF1ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0079A4-2DE4-423F-A5C5-51B452B3E20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0079A4-2DE4-423F-A5C5-51B452B3E20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0079A4-2DE4-423F-A5C5-51B452B3E20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0079A4-2DE4-423F-A5C5-51B452B3E20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CEF3CEC-ABFF-4F95-A141-D914ACC69B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEF3CEC-ABFF-4F95-A141-D914ACC69B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEF3CEC-ABFF-4F95-A141-D914ACC69B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEF3CEC-ABFF-4F95-A141-D914ACC69B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36936789-7F18-4F5C-9E71-4C2D5128C433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36936789-7F18-4F5C-9E71-4C2D5128C433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36936789-7F18-4F5C-9E71-4C2D5128C433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36936789-7F18-4F5C-9E71-4C2D5128C433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D60103-9548-41DC-8A9F-F5D2964BF1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D60103-9548-41DC-8A9F-F5D2964BF1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D60103-9548-41DC-8A9F-F5D2964BF1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D60103-9548-41DC-8A9F-F5D2964BF1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{694C9171-4D28-4B9C-8AEF-32F6D7C1EAC8} = {D2B80880-78EF-4DDB-9860-F6B75F5E30D1}
+		{39DE711A-9B89-427B-96EE-BB08381E5C52} = {19A8F276-D034-4696-82BD-83AB5C164E7D}
+		{9E6A62FB-EB06-4A10-B3AC-86639A5529F8} = {19A8F276-D034-4696-82BD-83AB5C164E7D}
+		{BB4071E5-A1DD-4A47-8874-E7BCFFAF1ED1} = {54284221-692C-496A-AAB0-EB2030555998}
+		{2A0079A4-2DE4-423F-A5C5-51B452B3E20B} = {54284221-692C-496A-AAB0-EB2030555998}
+		{1CEF3CEC-ABFF-4F95-A141-D914ACC69B50} = {54284221-692C-496A-AAB0-EB2030555998}
+		{36936789-7F18-4F5C-9E71-4C2D5128C433} = {54284221-692C-496A-AAB0-EB2030555998}
+		{27D60103-9548-41DC-8A9F-F5D2964BF1A7} = {519F1C67-D55D-4961-9925-182C33867E7C}
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{9E067502-0B48-43D6-852E-51C7204E9231} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{9C1E20BD-1587-4959-BD00-4B5315304D98} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797} = {DC9D816C-C672-4FBB-8C4B-F8FC121FA56E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF7C33F6-6F19-4507-B001-1A00705D7C4D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 21
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.1.250:8080/tfs/supertheatercollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\SuperProducer\\Src\\SuperProducer.Core.Cache\\SuperProducer.Core.Cache.csproj
+		SccProjectTopLevelParentUniqueName1 = SuperTheaterPro.sln
+		SccProjectName1 = ../SuperProducer/Src/SuperProducer.Core.Cache
+		SccLocalPath1 = ..\\SuperProducer\\Src\\SuperProducer.Core.Cache
+		SccProjectUniqueName2 = ..\\SuperProducer\\Src\\SuperProducer.Core.Config\\SuperProducer.Core.Config.csproj
+		SccProjectTopLevelParentUniqueName2 = SuperTheaterPro.sln
+		SccProjectName2 = ../SuperProducer/Src/SuperProducer.Core.Config
+		SccLocalPath2 = ..\\SuperProducer\\Src\\SuperProducer.Core.Config
+		SccProjectUniqueName3 = ..\\SuperProducer\\Src\\SuperProducer.Core.Log\\SuperProducer.Core.Log.csproj
+		SccProjectTopLevelParentUniqueName3 = SuperTheaterPro.sln
+		SccProjectName3 = ../SuperProducer/Src/SuperProducer.Core.Log
+		SccLocalPath3 = ..\\SuperProducer\\Src\\SuperProducer.Core.Log
+		SccProjectUniqueName4 = ..\\SuperProducer\\Src\\SuperProducer.Core.Message\\SuperProducer.Core.Message.csproj
+		SccProjectTopLevelParentUniqueName4 = SuperTheaterPro.sln
+		SccProjectName4 = ../SuperProducer/Src/SuperProducer.Core.Message
+		SccLocalPath4 = ..\\SuperProducer\\Src\\SuperProducer.Core.Message
+		SccProjectUniqueName5 = ..\\SuperProducer\\Src\\SuperProducer.Core.Module\\SuperProducer.Core.Module.csproj
+		SccProjectTopLevelParentUniqueName5 = SuperTheaterPro.sln
+		SccProjectName5 = ../SuperProducer/Src/SuperProducer.Core.Module
+		SccLocalPath5 = ..\\SuperProducer\\Src\\SuperProducer.Core.Module
+		SccProjectUniqueName6 = ..\\SuperProducer\\Src\\SuperProducer.Core.Service\\SuperProducer.Core.Service.csproj
+		SccProjectTopLevelParentUniqueName6 = SuperTheaterPro.sln
+		SccProjectName6 = ../SuperProducer/Src/SuperProducer.Core.Service
+		SccLocalPath6 = ..\\SuperProducer\\Src\\SuperProducer.Core.Service
+		SccProjectUniqueName7 = ..\\SuperProducer\\Src\\SuperProducer.Core.Utility\\SuperProducer.Core.Utility.csproj
+		SccProjectTopLevelParentUniqueName7 = SuperTheaterPro.sln
+		SccProjectName7 = ../SuperProducer/Src/SuperProducer.Core.Utility
+		SccLocalPath7 = ..\\SuperProducer\\Src\\SuperProducer.Core.Utility
+		SccProjectUniqueName8 = ..\\SuperProducer\\Src\\SuperProducer.Framework.BLL\\SuperProducer.Framework.BLL.csproj
+		SccProjectTopLevelParentUniqueName8 = SuperTheaterPro.sln
+		SccProjectName8 = ../SuperProducer/Src/SuperProducer.Framework.BLL
+		SccLocalPath8 = ..\\SuperProducer\\Src\\SuperProducer.Framework.BLL
+		SccProjectUniqueName9 = ..\\SuperProducer\\Src\\SuperProducer.Framework.Contract\\SuperProducer.Framework.Contract.csproj
+		SccProjectTopLevelParentUniqueName9 = SuperTheaterPro.sln
+		SccProjectName9 = ../SuperProducer/Src/SuperProducer.Framework.Contract
+		SccLocalPath9 = ..\\SuperProducer\\Src\\SuperProducer.Framework.Contract
+		SccProjectUniqueName10 = ..\\SuperProducer\\Src\\SuperProducer.Framework.DAL\\SuperProducer.Framework.DAL.csproj
+		SccProjectTopLevelParentUniqueName10 = SuperTheaterPro.sln
+		SccProjectName10 = ../SuperProducer/Src/SuperProducer.Framework.DAL
+		SccLocalPath10 = ..\\SuperProducer\\Src\\SuperProducer.Framework.DAL
+		SccProjectUniqueName11 = ..\\SuperProducer\\Src\\SuperProducer.Framework.Model\\SuperProducer.Framework.Model.csproj
+		SccProjectTopLevelParentUniqueName11 = SuperTheaterPro.sln
+		SccProjectName11 = ../SuperProducer/Src/SuperProducer.Framework.Model
+		SccLocalPath11 = ..\\SuperProducer\\Src\\SuperProducer.Framework.Model
+		SccProjectUniqueName12 = ..\\SuperProducer\\Src\\SuperProducer.Framework.Web\\SuperProducer.Framework.Web.csproj
+		SccProjectTopLevelParentUniqueName12 = SuperTheaterPro.sln
+		SccProjectName12 = ../SuperProducer/Src/SuperProducer.Framework.Web
+		SccLocalPath12 = ..\\SuperProducer\\Src\\SuperProducer.Framework.Web
+		SccProjectUniqueName13 = SuperTheaterPro.API.Helper\\SuperTheaterPro.API.Helper.csproj
+		SccProjectTopLevelParentUniqueName13 = SuperTheaterPro.sln
+		SccProjectName13 = SuperTheaterPro.API.Helper
+		SccLocalPath13 = SuperTheaterPro.API.Helper
+		SccProjectUniqueName14 = SuperTheaterPro.API.Logic\\SuperTheaterPro.API.Logic.csproj
+		SccProjectTopLevelParentUniqueName14 = SuperTheaterPro.sln
+		SccProjectName14 = SuperTheaterPro.API.Logic
+		SccLocalPath14 = SuperTheaterPro.API.Logic
+		SccProjectUniqueName15 = SuperTheaterPro.API\\SuperTheaterPro.API.csproj
+		SccProjectTopLevelParentUniqueName15 = SuperTheaterPro.sln
+		SccProjectName15 = SuperTheaterPro.API
+		SccLocalPath15 = SuperTheaterPro.API
+		SccProjectUniqueName16 = SuperTheaterPro.Business.BLL\\SuperTheaterPro.Business.BLL.csproj
+		SccProjectTopLevelParentUniqueName16 = SuperTheaterPro.sln
+		SccProjectName16 = SuperTheaterPro.Business.BLL
+		SccLocalPath16 = SuperTheaterPro.Business.BLL
+		SccProjectUniqueName17 = SuperTheaterPro.Business.Contract\\SuperTheaterPro.Business.Contract.csproj
+		SccProjectTopLevelParentUniqueName17 = SuperTheaterPro.sln
+		SccProjectName17 = SuperTheaterPro.Business.Contract
+		SccLocalPath17 = SuperTheaterPro.Business.Contract
+		SccProjectUniqueName18 = SuperTheaterPro.Business.DAL\\SuperTheaterPro.Business.DAL.csproj
+		SccProjectTopLevelParentUniqueName18 = SuperTheaterPro.sln
+		SccProjectName18 = SuperTheaterPro.Business.DAL
+		SccLocalPath18 = SuperTheaterPro.Business.DAL
+		SccProjectUniqueName19 = SuperTheaterPro.Business.Model\\SuperTheaterPro.Business.Model.csproj
+		SccProjectTopLevelParentUniqueName19 = SuperTheaterPro.sln
+		SccProjectName19 = SuperTheaterPro.Business.Model
+		SccLocalPath19 = SuperTheaterPro.Business.Model
+		SccProjectUniqueName20 = SuperTheaterPro.Framework.Utility\\SuperTheaterPro.Framework.Utility.csproj
+		SccProjectTopLevelParentUniqueName20 = SuperTheaterPro.sln
+		SccProjectName20 = SuperTheaterPro.Framework.Utility
+		SccLocalPath20 = SuperTheaterPro.Framework.Utility
+	EndGlobalSection
+EndGlobal

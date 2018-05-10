@@ -1,0 +1,23 @@
+01 User Interface - UI层,可分为B/S,C/S,WebService
+02 UIModelCommon
+|- SuperTheaterPro.API.Helper - UI层API的一些帮助功能,比如时间字符串显示
+|- SuperTheaterPro.API.Logic - UI层与领域数据之间的转换、验证、过滤等操作
+03 Business Logic - 项目的核心,分为BLL,DAL,Contract,Model
+|- SuperTheaterPro.Business.BLL - 服务(业务)基础CURD方法、复杂查询场景、业务需求、业务异常抛出等
+|- |- 实现SuperTheaterPro.Business.Contract中定义的服务接口
+|- SuperTheaterPro.Business.Contract - 服务(业务)接口定义
+|- SuperTheaterPro.Business.DAL - 提供基础的数据库访问
+|- SuperTheaterPro.Business.Model - 业务模型类
+|- |- SuperTheaterPro.Business.Model.Enum - 程序编写过程中用到的枚举
+|- |- SuperTheaterPro.Business.Model.Ext - 程序编写过程中用到的辅助类
+|- |- SuperTheaterPro.Business.Model.[数据库名称命名文件夹] - 存放指定数据库所有表的实体模型
+|- |- |- SuperTheaterPro.Business.Model.[数据库名称命名文件夹].admin - admin网站所使用的输入输出模型类
+|- |- |- SuperTheaterPro.Business.Model.[数据库名称命名文件夹].api - api网站所使用的输入输出模型类
+|- |- SuperTheaterPro.Business.Model.Validation - 程序中用到的自定义模型校验类
+04 Framework - 业务无关的底层通用机制及功能
+05 ReferenceLib - 第三方框架、组件项目
+06 Solution Items - 项目规范、业务流程、测试用例、重要文件等
+07 Test - 单元测试、性能测试
+08 Publish - 发布的版本
+
+各业务线主要工作在03 Business Logic层

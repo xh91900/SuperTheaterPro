@@ -1,0 +1,31 @@
+类、接口、结构体、枚举等顶层对象的标识符采用"大驼峰式"书写格式
+方法名称"大驼峰式"书写格式
+全局变量采用"大驼峰式"书写格式
+局部变量采用"小驼峰式"书写格式
+常量同全局和局部变量的书写格式
+
+"大驼峰式"书写格式 = OrderPaymentInfo
+"小驼峰式"书写格式 = orderPaymentInfo
+"字母全大写" = WEBREQUESTTIMEOUTMS
+
+SuperTheaterPro.Business.Model - 输入输出模型命名规则
+|- [数据库名称命名文件夹]
+|- |- admin 输入输出模型类[例如：MDA_IN_AuthLogin, MD=MODEL, A=admin, IN|OUT=该类的使用场景(IN传入模型,OUT传出模型), AuthLogin=相关的功能模块]
+|- |- api 输入输出模型类[例如：MDA_OUT_Register, MD=MODEL, A=api, IN|OUT=该类的使用场景(IN传入模型,OUT传出模型), Register=相关的功能模块]
+|- |- h5 输入输出模型类[例如：MDH_IN_Payment, MD=MODEL, H=H5, IN|OUT=该类的使用场景(IN传入模型,OUT传出模型), Payment=相关的功能模块]
+|- Ext 辅助类[例如：MDE_Payment_WechatGZH_Config, MD=MODEL, E=Extension, Payment_WechatGZH_Config=相关的功能模块]
+...
+
+SuperTheaterPro.Business.Model - 输入输出模型命名空间规则
+|- [数据库名称命名文件夹] - SuperTheaterPro.Business.Model [例如:数据库名称命名文件夹下有一个类UserInfo,命名空间:SuperTheaterPro.Business.Model]
+|- |- admin SuperTheaterPro.Business.Model.Admin [例如:admin文件夹下有一个类MDA_IN_AuthLogin,命名空间:SuperTheaterPro.Business.Model.Admin]
+|- |- api SuperTheaterPro.Business.Model.Api [例如:api文件夹下有一个类MDA_OUT_Register,命名空间:SuperTheaterPro.Business.Model.Api]
+|- |- h5 SuperTheaterPro.Business.Model.H5 [例如:api文件夹下有一个类MDA_OUT_Register,命名空间:SuperTheaterPro.Business.Model.H5]
+|- Ext SuperTheaterPro.Business.Model.Ext [例如:Ext文件夹下有一个类MDE_Payment_WechatGZH_Config,命名空间:SuperTheaterPro.Business.Model.Ext]
+|- Enum SuperTheaterPro.Business.Model.Enum [例如:Ext文件夹下有一个类CommonEnum,命名空间:SuperTheaterPro.Business.Model.Enum]
+...
+
+SuperTheaterPro.Business.BLL
+SuperTheaterPro.Business.Contract
+SuperTheaterPro.Business.DAL
+以上三个类库在采用"大|小驼峰"书写格式后命名规则尽可能体现该类或接口的作用

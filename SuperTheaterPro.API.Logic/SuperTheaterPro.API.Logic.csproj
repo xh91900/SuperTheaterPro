@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E6A62FB-EB06-4A10-B3AC-86639A5529F8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperTheaterPro.API.Logic</RootNamespace>
+    <AssemblyName>SuperTheaterPro.API.Logic</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\ApiControllerBase.cs" />
+    <Compile Include="Controller\MvcControllerBase.cs" />
+    <Compile Include="Dependency\WindsorControllerFactory.cs" />
+    <Compile Include="Dependency\WindsorDependencyResolver.cs" />
+    <Compile Include="Dependency\WindsorDependencyScope.cs" />
+    <Compile Include="Dependency\WindsorHttpControllerActivator.cs" />
+    <Compile Include="GlobalFilter\GlobalApiAuthorizationFilter.cs" />
+    <Compile Include="GlobalFilter\GlobalApiExceptionFilter.cs" />
+    <Compile Include="GlobalFilter\GlobalApiRequestFilter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemLauncher.cs" />
+    <Compile Include="SystemLauncherEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Core.Cache\SuperProducer.Core.Cache.csproj">
+      <Project>{55ed544d-e078-4f5d-a370-3fefa2a906a2}</Project>
+      <Name>SuperProducer.Core.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Core.Config\SuperProducer.Core.Config.csproj">
+      <Project>{0f4335d8-8454-4c9c-b2db-b758595abc27}</Project>
+      <Name>SuperProducer.Core.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Core.Log\SuperProducer.Core.Log.csproj">
+      <Project>{d7e7a6e3-1f36-4ad1-ab2b-fc7f44b63d31}</Project>
+      <Name>SuperProducer.Core.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Core.Service\SuperProducer.Core.Service.csproj">
+      <Project>{9fb47c9c-bada-4f03-b487-77c5d57b2ec8}</Project>
+      <Name>SuperProducer.Core.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Core.Utility\SuperProducer.Core.Utility.csproj">
+      <Project>{e6ffe21b-564c-4533-bdc3-b394d1069ca1}</Project>
+      <Name>SuperProducer.Core.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Framework.Model\SuperProducer.Framework.Model.csproj">
+      <Project>{e3c37409-2fe9-4c8d-ba8f-227c8bec4550}</Project>
+      <Name>SuperProducer.Framework.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SuperProducer\Src\SuperProducer.Framework.Web\SuperProducer.Framework.Web.csproj">
+      <Project>{2587bb44-ca6c-4e2d-a815-7777c165fe72}</Project>
+      <Name>SuperProducer.Framework.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperTheaterPro.Business.BLL\SuperTheaterPro.Business.BLL.csproj">
+      <Project>{bb4071e5-a1dd-4a47-8874-e7bcffaf1ed1}</Project>
+      <Name>SuperTheaterPro.Business.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperTheaterPro.Business.Model\SuperTheaterPro.Business.Model.csproj">
+      <Project>{36936789-7f18-4f5c-9e71-4c2d5128c433}</Project>
+      <Name>SuperTheaterPro.Business.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperTheaterPro.Framework.Utility\SuperTheaterPro.Framework.Utility.csproj">
+      <Project>{27d60103-9548-41dc-8a9f-f5d2964bf1a7}</Project>
+      <Name>SuperTheaterPro.Framework.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
